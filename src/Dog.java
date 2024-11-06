@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Dog {
+public class Dog extends Mammal{
+
+    public Dog() {
+        this.species = "Dog";
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Woof woof");
+    }
 }
